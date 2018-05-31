@@ -18,3 +18,10 @@ const ingredients = ["salt", "olive oil", "chicken breast", "pepper", "butter", 
 const movieYear = 2003;
 alert(favFood + ingredients);
 confirm(favMovie + movieYear);
+
+
+prompt(firstName + lastName);
+console.log(firstName);
+alert(lastName);
+confirm(bday);
+alert(bday);
