@@ -20,8 +20,7 @@ alert(favFood + ingredients);
 confirm(favMovie + movieYear);
 
 
-prompt(firstName + lastName);
-console.log(firstName);
-alert(lastName);
-confirm(bday);
-alert(bday);
+let favColor = Prompt('give me your fav color', '...')
+switch(favColor.upperLowerCase()) {//normalize the data
+
+}
