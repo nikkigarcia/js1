@@ -19,9 +19,12 @@ const movieYear = 2003;
 alert(favFood + ingredients);
 confirm(favMovie + movieYear);
 
+const firstName = prompt('What is your first name?');
 
-prompt(firstName + lastName);
+const lastName = prompt('What is your last name?');
 console.log(firstName);
 alert(lastName);
-confirm(bday);
-alert(bday);
+prompt('What is your birthday?');
+const bday = new date (prompt('What is your birthday?'));
+confirm('Are you sure this is your birthday? `$(bday)`');
+alert(Date);
