@@ -18,3 +18,9 @@ const ingredients = ["salt", "olive oil", "chicken breast", "pepper", "butter", 
 const movieYear = 2003;
 alert(favFood + ingredients);
 confirm(favMovie + movieYear);
+
+ // use const first, then let, never var for new coding
+ // back ticks `` ${} allow you to inject variables into lorem or text
+
+ const date = new date();
+ console.log(date);
